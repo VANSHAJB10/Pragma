@@ -1,0 +1,29 @@
+pragma solidity 0.5.1; //igher versions of solidity may have security vulnerabilities
+
+contract Counter{   
+    /*created = deployed = put on the blockchain*/ 
+
+    uint256 public count;   /* type folowwed by var name; Solidity is statically typed language */
+    /*unit -->means 'unsigned integer' --> is always positive  ;  uint256 means it can contain 256 bit of data  ;  by default its 256*/
+    /*count --> is state variable*/
+
+    event Increment(uint value); 
+    event Decrement(uint value);
+
+    function getCount()view public returns(uint){  // to display count
+        return count;
+    }
+
+    constructor() public{
+        count = 0; //default value of count // count can also be initialized in line 6.
+    }
+
+    function increment() public{  // public keyword is added to change the scope for calling the function 
+        count += 1;
+        emit Increment(count); // calling the event
+    }
+    function decrement() public{
+        count -= 1;
+        emit Decrement(count);
+    }
+}
