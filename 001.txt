@@ -1,0 +1,4 @@
+Solidity is * Contract oriented
+            * High level language
+            * Statically typed programming lang.
+            
