@@ -1,5 +1,4 @@
 <h1>Future of the internet is </h1>-
-⇀ *Private*
-           ∝ *Trustless* ∝
-                           ⇀ *Censorship resistant*
-
+⇀ <b>*Private*</b>
+            <hr><b> *Trustless* </b> 
+                        <hr> <b>  ⇀ *Censorship resistant* </b>
