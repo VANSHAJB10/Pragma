@@ -2,3 +2,8 @@ Solidity is * Contract oriented
             * High level language
             * Statically typed programming lang.
             
+↪ Mainnet
+A permissionless, persistent cluster for early token holders and launch partners. Currently, rewards and inflation are disabled.
+
+↪Devnet
+Devnet serves as a playground for anyone who wants to take a blockchain for a test drive, as a user, token holder, app developer, or validator.
