@@ -7,3 +7,6 @@ A permissionless, persistent cluster for early token holders and launch partners
 
 ↪Devnet
 Devnet serves as a playground for anyone who wants to take a blockchain for a test drive, as a user, token holder, app developer, or validator.
+
+↪Testnet
+Testnet is where we stress test recent release features on a live cluster, particularly focused on network performance, stability and validator behavior.
