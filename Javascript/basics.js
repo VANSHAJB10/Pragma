@@ -33,3 +33,50 @@ function greater(first, last) {
 }
 
 module.exports = greater;
+
+/*   Difference between 'return' and 'console.log'  */
+// example- bypassing the esle statement of if-else block
+function isEqual(a,b) {
+    if(a === b) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+// in the above code, else can be removed --
+
+function isEqual(a,b) {
+    if(a === b) {
+        return true;
+    }
+    return false;
+}
+
+/* EXPLANATION -- In both cases, the return false is only reached if a is not equal to b.
+If a is equal to b in the second example, the return true will exit the function and the last line will never be reached.  */
+
+//But in example 2- 
+function isEqual(a,b) {
+    if(a === b) {
+        console.log('They are equal!');
+    }
+    else {
+        console.log('They are not equal!');
+    }
+}
+
+// Removing the else here would not work! 
+
+function isEqual(a,b) {
+    if(a === b) {
+        console.log('They are equal!');
+    }
+    // this line will always be reached
+    console.log('They are not equal!');
+}
+
+/*  In this case, the last line will always be reached. EXPLANATION -- in the example 2- the printing is being done. whereas in example 1 ... 
+    we have used return statement, which will exit the function after it is iterated but print statement will come out of conditional statement each time to
+    continue its execution in the function */
