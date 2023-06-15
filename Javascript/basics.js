@@ -3,7 +3,8 @@
 
 function isEqual(a, b) {
    if( a === b){
-       console.log("true"); // prints true if a and b are equal
+     //  console.log("true"); // print true if a and b are equal
+      return true;
    }
 }
 
