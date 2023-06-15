@@ -9,3 +9,7 @@ function isEqual(a, b) {
 }
 
 module.exports = isEqual; //call the function
+
+
+/* Not Equals operator (!==) */
+//  !== or the strict inequality operator. This operator will evaluate to true if the two values are not equal.
