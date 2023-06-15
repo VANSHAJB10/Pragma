@@ -80,3 +80,7 @@ function isEqual(a,b) {
 /*  In this case, the last line will always be reached. EXPLANATION -- in the example 2- the printing is being done. whereas in example 1 ... 
     we have used return statement, which will exit the function after it is iterated but print statement will come out of conditional statement each time to
     continue its execution in the function */
+
+
+/*  QUESTION :- What if both firstCondition and otherCondition (in   else if   part) are true
+    ANSWER :- else statements (be it else   or   else if)will only run if the original condition is not true. */
